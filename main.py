@@ -44,7 +44,7 @@ def append_news(n: int):
         print(news_dict)
 
 
-# запись в json файл
+# writing in json fail
 def write_to_json():
     with open("data/news.json", "w", encoding="utf-8") as f:
         json.dump(news_list, f, ensure_ascii=False, indent=2)
